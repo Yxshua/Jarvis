@@ -9,7 +9,7 @@ import time
 import os
 
 wake_word = 'jarvis'
-model = GPT4All("/Users/joshcrockett/Library/Application Support/nomic.ai/GPT4All/gpt4all-falcon-q4_0.gguf", allow_download=False)
+model = GPT4All("/Users/...../Library/Application Support/nomic.ai/GPT4All/gpt4all-falcon-q4_0.gguf", allow_download=False)
 r = sr.Recognizer()
 tiny_model_path = os.path.expanduser('~/.cache/whisper/tiny.pt')
 base_model_path = os.path.expanduser('~/.cache/whisper/base.pt')
